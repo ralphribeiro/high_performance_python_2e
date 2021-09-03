@@ -38,6 +38,6 @@ if __name__ == "__main__":
     )
 
     start = time.time()
-    result = asyncio.run(run_func)  # <5>
+    result = asyncio.run(run_func())  # <5>
     end = time.time()
     print(f"Result: {result}, Time: {end - start}")

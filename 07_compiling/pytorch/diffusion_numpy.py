@@ -38,4 +38,4 @@ if __name__ == "__main__":
     N, runtime = timeit.Timer(
         f"run_experiment({n_iter})", globals=globals()
     ).autorange()
-    print(f"Runtime with grid {grid_shape}: {runtime / N:0.4f}s")
+    print(f"Runtime with grid {GRID_SHAPE}: {runtime / N:0.4f}s")
