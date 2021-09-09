@@ -1,7 +1,6 @@
 import math
 import time
 import multiprocessing
-from multiprocessing import Pool
 import argparse
 
 FLAG_ALL_DONE = b"WORK_FINISHED"

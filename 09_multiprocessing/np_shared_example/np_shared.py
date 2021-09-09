@@ -27,8 +27,8 @@ from prettytable import PrettyTable
 #SIZE_A, SIZE_B = 10000, 40000  # 3.2GB (3.2e9 bytes)  # GOOD DEMO
 #SIZE_A, SIZE_B = 10000, 80000  # 6.2GB - starts to use swap via htop
 #SIZE_A, SIZE_B = 40_000, 80_000  # 6.2GB - starts to use swap via htop
-#SIZE_A, SIZE_B = 10_000, 160_000  # 12GB
-SIZE_A, SIZE_B = 10_000, 320_000  # 24GB
+SIZE_A, SIZE_B = 10_000, 160_000  # 12GB
+# SIZE_A, SIZE_B = 10_000, 320_000  # 24GB
 
 
 def worker_fn(idx):
